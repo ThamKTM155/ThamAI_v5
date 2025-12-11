@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ThamAI v5 — PRO</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- highlight.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>ThamAI v5 — PRO</h1>
+      <p class="sub">Streaming + TTS fallback + Highlight</p>
+    </header>
+
+    <main id="chatbox" class="chatbox" aria-live="polite"></main>
+
+    <div class="controls">
+      <textarea id="userInput" class="input" placeholder="Nhập tin nhắn... (Enter để gửi)"></textarea>
+      <div class="controls-right">
+        <button id="micBtn" class="btn mic" title="Ghi âm">🎤</button>
+        <button id="sendBtn" class="btn send" title="Gửi">Gửi</button>
+      </div>
+    </div>
+
+    <audio id="audio-player" hidden></audio>
+  </div>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
