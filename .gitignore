@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+pm2.log
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+.cache/
+.temp/
+tmp/
+
+# Jest
+coverage/
+.jest/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kubernetes local configs
+k8s/*.local.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp

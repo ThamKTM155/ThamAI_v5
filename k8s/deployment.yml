@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: thamai
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: thamai
+  template:
+    metadata:
+      labels:
+        app: thamai
+    spec:
+      containers:
+        - name: thamai
+          image: myregistry/thamai:latest
+          ports:
+            - containerPort: 3000
