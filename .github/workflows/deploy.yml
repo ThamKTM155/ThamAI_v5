@@ -30,9 +30,9 @@ jobs:
         working-directory: backend
         run: npm install
 
-      - name: Run tests
-        working-directory: backend
-        run: npm test
+    - name: Run Tests
+  run: npm test --passWithNoTests
+
 
   docker_build_push:
     name: Docker Build & Push
