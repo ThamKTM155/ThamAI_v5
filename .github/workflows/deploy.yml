@@ -1,6 +1,5 @@
 name: ThamAI CI/CD Node.js
 
-# Chạy khi push lên main hoặc release/*
 on:
   push:
     branches: [main, release/*]
@@ -30,7 +29,8 @@ jobs:
         working-directory: backend
         run: npm install
 
-      - name: Run Tests
+      - name: Run tests
+        working-directory: backend
         run: npm test --passWithNoTests
 
   docker_build_push:
@@ -74,8 +74,9 @@ jobs:
           kubectl set image deployment/thamai thamai=${{ env.IMAGE_NAME }}:${{ github.sha }} -n ${{ env.K8S_NAMESPACE }}
           kubectl rollout status deployment/thamai -n ${{ env.K8S_NAMESPACE }}
 
+      # ----- Slack Notification (Optional) -----
       - name: Optional Slack notification
-        if: ${{ secrets.SLACK_WEBHOOK_URL != '' }}
+        if: ${{ env.SLACK_WEBHOOK_URL }}
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
