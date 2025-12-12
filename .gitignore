@@ -1,0 +1,26 @@
+# --- SECURITY PRO ---
+*.env
+.env.local
+.env.*.local
+*token*
+*secret*
+*apikey*
+*_key*
+*.pem
+*.p12
+*.crt
+*.cert
+*_creds.json
+scan_token.txt
+
+# Node & build
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Logs & OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
