@@ -1,0 +1,920 @@
+{
+  "ThamKTM155/ThamAI_v5": [
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/call-bind-apply-helpers/tsconfig.json",
+      "location": "backend/node_modules/call-bind-apply-helpers/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/call-bound/tsconfig.json",
+      "location": "backend/node_modules/call-bound/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/dunder-proto/tsconfig.json",
+      "location": "backend/node_modules/dunder-proto/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/es-define-property/tsconfig.json",
+      "location": "backend/node_modules/es-define-property/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/es-errors/tsconfig.json",
+      "location": "backend/node_modules/es-errors/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/es-object-atoms/tsconfig.json",
+      "location": "backend/node_modules/es-object-atoms/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/get-proto/tsconfig.json",
+      "location": "backend/node_modules/get-proto/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/gopd/tsconfig.json",
+      "location": "backend/node_modules/gopd/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/has-symbols/tsconfig.json",
+      "location": "backend/node_modules/has-symbols/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/hasown/tsconfig.json",
+      "location": "backend/node_modules/hasown/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/math-intrinsics/tsconfig.json",
+      "location": "backend/node_modules/math-intrinsics/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/side-channel-list/tsconfig.json",
+      "location": "backend/node_modules/side-channel-list/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/side-channel-map/tsconfig.json",
+      "location": "backend/node_modules/side-channel-map/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/side-channel-weakmap/tsconfig.json",
+      "location": "backend/node_modules/side-channel-weakmap/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/node_modules/side-channel/tsconfig.json",
+      "location": "backend/node_modules/side-channel/tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/secret['\"\\s:=]{1,}/i) found in backend/node_modules/cookie-signature/index.js",
+      "location": "backend/node_modules/cookie-signature/index.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/cookie-signature/index.js",
+      "location": "backend/node_modules/cookie-signature/index.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in backend/node_modules/cors/README.md",
+      "location": "backend/node_modules/cors/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/cors/README.md",
+      "location": "backend/node_modules/cors/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/secret['\"\\s:=]{1,}/i) found in backend/node_modules/express/History.md",
+      "location": "backend/node_modules/express/History.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in backend/node_modules/express/History.md",
+      "location": "backend/node_modules/express/History.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/express/History.md",
+      "location": "backend/node_modules/express/History.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in backend/node_modules/express/lib/response.js",
+      "location": "backend/node_modules/express/lib/response.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/secret['\"\\s:=]{1,}/i) found in backend/node_modules/express/lib/response.js",
+      "location": "backend/node_modules/express/lib/response.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/express/lib/response.js",
+      "location": "backend/node_modules/express/lib/response.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in backend/node_modules/express/package.json",
+      "location": "backend/node_modules/express/package.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/express/package.json",
+      "location": "backend/node_modules/express/package.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/mime-db/db.json",
+      "location": "backend/node_modules/mime-db/db.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in backend/node_modules/node-fetch/lib/index.es.js",
+      "location": "backend/node_modules/node-fetch/lib/index.es.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/node-fetch/lib/index.es.js",
+      "location": "backend/node_modules/node-fetch/lib/index.es.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in backend/node_modules/node-fetch/lib/index.js",
+      "location": "backend/node_modules/node-fetch/lib/index.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/node-fetch/lib/index.js",
+      "location": "backend/node_modules/node-fetch/lib/index.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/safe-buffer/README.md",
+      "location": "backend/node_modules/safe-buffer/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/safer-buffer/Porting-Buffer.md",
+      "location": "backend/node_modules/safer-buffer/Porting-Buffer.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/whatwg-url/README.md",
+      "location": "backend/node_modules/whatwg-url/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/whatwg-url/lib/URL-impl.js",
+      "location": "backend/node_modules/whatwg-url/lib/URL-impl.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in backend/node_modules/whatwg-url/lib/URL.js",
+      "location": "backend/node_modules/whatwg-url/lib/URL.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/whatwg-url/lib/URL.js",
+      "location": "backend/node_modules/whatwg-url/lib/URL.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in backend/node_modules/whatwg-url/lib/public-api.js",
+      "location": "backend/node_modules/whatwg-url/lib/public-api.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/whatwg-url/lib/public-api.js",
+      "location": "backend/node_modules/whatwg-url/lib/public-api.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in backend/node_modules/whatwg-url/lib/url-state-machine.js",
+      "location": "backend/node_modules/whatwg-url/lib/url-state-machine.js"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v5",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/node_modules/whatwg-url/lib/url-state-machine.js",
+      "location": "backend/node_modules/whatwg-url/lib/url-state-machine.js"
+    }
+  ],
+  "ThamKTM155/ThamAI_PRO_ULTRA_v4_free": [
+    {
+      "repo": "ThamKTM155/ThamAI_PRO_ULTRA_v4_free",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/.env.example",
+      "location": "backend/.env.example"
+    }
+  ],
+  "ThamKTM155/ThamAI": [],
+  "ThamKTM155/ThamAI_v3_Backend": [
+    {
+      "repo": "ThamKTM155/ThamAI_v3_Backend",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in app.py",
+      "location": "app.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_v3_Backend",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in app.py",
+      "location": "app.py"
+    }
+  ],
+  "ThamKTM155/ThamAI_v2.3": [],
+  "ThamKTM155/ThamAI_Frontend_new": [
+    {
+      "repo": "ThamKTM155/ThamAI_Frontend_new",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in README_Ultra_v1.4.txt",
+      "location": "README_Ultra_v1.4.txt"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_Frontend_new",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in README_Ultra_v1.4.txt",
+      "location": "README_Ultra_v1.4.txt"
+    }
+  ],
+  "ThamKTM155/ThamAI_Backend_new": [],
+  "ThamKTM155/ThamAI_monorepo": [
+    {
+      "repo": "ThamKTM155/ThamAI_monorepo",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: backend/.env.example",
+      "location": "backend/.env.example"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_monorepo",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in backend/app.py",
+      "location": "backend/app.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_monorepo",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in backend/app.py",
+      "location": "backend/app.py"
+    }
+  ],
+  "ThamKTM155/ThamAI_monorepo_backend": [],
+  "ThamKTM155/ThachAIFrontend_test": [
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/.vite/deps/chunk-REFQX4J5.js",
+      "location": "node_modules/.vite/deps/chunk-REFQX4J5.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/.vite/deps/react-dom_client.js",
+      "location": "node_modules/.vite/deps/react-dom_client.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/.vite/deps/react_jsx-dev-runtime.js",
+      "location": "node_modules/.vite/deps/react_jsx-dev-runtime.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/.vite/deps/react_jsx-runtime.js",
+      "location": "node_modules/.vite/deps/react_jsx-runtime.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/secret['\"\\s:=]{1,}/i) found in node_modules/@babel/core/lib/errors/rewrite-stack-trace.js",
+      "location": "node_modules/@babel/core/lib/errors/rewrite-stack-trace.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/@babel/core/lib/errors/rewrite-stack-trace.js",
+      "location": "node_modules/@babel/core/lib/errors/rewrite-stack-trace.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/@babel/helper-globals/data/browser-upper.json",
+      "location": "node_modules/@babel/helper-globals/data/browser-upper.json"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js",
+      "location": "node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/caniuse-lite/data/features.js",
+      "location": "node_modules/caniuse-lite/data/features.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/caniuse-lite/data/features/passwordrules.js",
+      "location": "node_modules/caniuse-lite/data/features/passwordrules.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/caniuse-lite/data/features/passwordrules.js",
+      "location": "node_modules/caniuse-lite/data/features/passwordrules.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom-server.browser.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-server.node.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom-server.node.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-test-utils.development.js",
+      "location": "node_modules/react-dom/cjs/react-dom-test-utils.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom-test-utils.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom-test-utils.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/react-dom/cjs/react-dom.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom.production.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/react-dom/cjs/react-dom.profiling.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/cjs/react-dom.profiling.min.js",
+      "location": "node_modules/react-dom/cjs/react-dom.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/client.js",
+      "location": "node_modules/react-dom/client.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.js",
+      "location": "node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom-server.browser.production.min.js",
+      "location": "node_modules/react-dom/umd/react-dom-server.browser.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom-test-utils.development.js",
+      "location": "node_modules/react-dom/umd/react-dom-test-utils.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom-test-utils.production.min.js",
+      "location": "node_modules/react-dom/umd/react-dom-test-utils.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/react-dom/umd/react-dom.production.min.js",
+      "location": "node_modules/react-dom/umd/react-dom.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom.production.min.js",
+      "location": "node_modules/react-dom/umd/react-dom.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/react-dom/umd/react-dom.profiling.min.js",
+      "location": "node_modules/react-dom/umd/react-dom.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react-dom/umd/react-dom.profiling.min.js",
+      "location": "node_modules/react-dom/umd/react-dom.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react-jsx-dev-runtime.development.js",
+      "location": "node_modules/react/cjs/react-jsx-dev-runtime.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react-jsx-runtime.development.js",
+      "location": "node_modules/react/cjs/react-jsx-runtime.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "location": "node_modules/react/cjs/react-jsx-runtime.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react-jsx-runtime.profiling.min.js",
+      "location": "node_modules/react/cjs/react-jsx-runtime.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react.development.js",
+      "location": "node_modules/react/cjs/react.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/cjs/react.production.min.js",
+      "location": "node_modules/react/cjs/react.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/umd/react.development.js",
+      "location": "node_modules/react/umd/react.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/umd/react.production.min.js",
+      "location": "node_modules/react/umd/react.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/react/umd/react.profiling.min.js",
+      "location": "node_modules/react/umd/react.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/scheduler/umd/scheduler.development.js",
+      "location": "node_modules/scheduler/umd/scheduler.development.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/scheduler/umd/scheduler.production.min.js",
+      "location": "node_modules/scheduler/umd/scheduler.production.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/scheduler/umd/scheduler.profiling.min.js",
+      "location": "node_modules/scheduler/umd/scheduler.profiling.min.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in node_modules/vite/dist/node/index.d.ts",
+      "location": "node_modules/vite/dist/node/index.d.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in node_modules/vite/dist/node/index.d.ts",
+      "location": "node_modules/vite/dist/node/index.d.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAIFrontend_test",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in node_modules/vite/dist/node/index.d.ts",
+      "location": "node_modules/vite/dist/node/index.d.ts"
+    }
+  ],
+  "ThamKTM155/ThamAI_moi": [
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "DangerFilename",
+      "message": "Dangerous filename/path detected: tsconfig.json",
+      "location": "tsconfig.json"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/README.md",
+      "location": "server/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/README.md",
+      "location": "server/README.md"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/sk-[A-Za-z0-9\\-_]{20,}/gi) found in server/README.txt",
+      "location": "server/README.txt"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/README.txt",
+      "location": "server/README.txt"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/README.txt",
+      "location": "server/README.txt"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/README_gia_nen.txt",
+      "location": "server/README_gia_nen.txt"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/app.py",
+      "location": "server/app.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_moi",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/app.py",
+      "location": "server/app.py"
+    }
+  ],
+  "ThamKTM155/ThamAI_Backend_clean": [
+    {
+      "repo": "ThamKTM155/ThamAI_Backend_clean",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in app.py",
+      "location": "app.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_Backend_clean",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in app.py",
+      "location": "app.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_Backend_clean",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in test_openai.py",
+      "location": "test_openai.py"
+    },
+    {
+      "repo": "ThamKTM155/ThamAI_Backend_clean",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in test_openai.py",
+      "location": "test_openai.py"
+    }
+  ],
+  "ThamKTM155/ThachAiAssistant": [
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in ai_integrations/chatbot_manager.js",
+      "location": "ai_integrations/chatbot_manager.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in ai_integrations/chatbot_manager.js",
+      "location": "ai_integrations/chatbot_manager.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in ai_integrations/chatbot_manager.js",
+      "location": "ai_integrations/chatbot_manager.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in ai_integrations/chatbot_manager.js",
+      "location": "ai_integrations/chatbot_manager.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in ai_integrations/deployment_guide.md",
+      "location": "ai_integrations/deployment_guide.md"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/secret['\"\\s:=]{1,}/i) found in ai_integrations/deployment_guide.md",
+      "location": "ai_integrations/deployment_guide.md"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in ai_integrations/deployment_guide.md",
+      "location": "ai_integrations/deployment_guide.md"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in ai_integrations/deployment_guide.md",
+      "location": "ai_integrations/deployment_guide.md"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in ai_integrations/microsoft_bot_framework.js",
+      "location": "ai_integrations/microsoft_bot_framework.js"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/ai-capabilities.ts",
+      "location": "server/ai-capabilities.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/ai-capabilities.ts",
+      "location": "server/ai-capabilities.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/ai-code-assistant.ts",
+      "location": "server/ai-code-assistant.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/ai-code-assistant.ts",
+      "location": "server/ai-code-assistant.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/api-status.ts",
+      "location": "server/api-status.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/api-status.ts",
+      "location": "server/api-status.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in server/auth.ts",
+      "location": "server/auth.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/auth.ts",
+      "location": "server/auth.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/business-intelligence-crm.ts",
+      "location": "server/business-intelligence-crm.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/business-intelligence-crm.ts",
+      "location": "server/business-intelligence-crm.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/content-automation.ts",
+      "location": "server/content-automation.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/content-automation.ts",
+      "location": "server/content-automation.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/ecommerce-integration.ts",
+      "location": "server/ecommerce-integration.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/ecommerce-integration.ts",
+      "location": "server/ecommerce-integration.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/integration-test.ts",
+      "location": "server/integration-test.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/integration-test.ts",
+      "location": "server/integration-test.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/authorization['\"\\s:=]{1,}/i) found in server/middleware/auth.ts",
+      "location": "server/middleware/auth.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in server/middleware/auth.ts",
+      "location": "server/middleware/auth.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/middleware/auth.ts",
+      "location": "server/middleware/auth.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in server/middleware/validation.ts",
+      "location": "server/middleware/validation.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/middleware/validation.ts",
+      "location": "server/middleware/validation.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/multi-platform-ai.ts",
+      "location": "server/multi-platform-ai.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/multi-platform-ai.ts",
+      "location": "server/multi-platform-ai.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/smart-document-processing.ts",
+      "location": "server/smart-document-processing.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/smart-document-processing.ts",
+      "location": "server/smart-document-processing.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/password['\"\\s:=]{1,}/i) found in server/storage.ts",
+      "location": "server/storage.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/storage.ts",
+      "location": "server/storage.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/video-image-ai-studio.ts",
+      "location": "server/video-image-ai-studio.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/video-image-ai-studio.ts",
+      "location": "server/video-image-ai-studio.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "SecretInFile",
+      "message": "Potential secret pattern (/api[_-]?key['\"\\s:=]{1,}/i) found in server/voice-processing.ts",
+      "location": "server/voice-processing.ts"
+    },
+    {
+      "repo": "ThamKTM155/ThachAiAssistant",
+      "type": "KeywordInFile",
+      "message": "Keyword-like strings found in server/voice-processing.ts",
+      "location": "server/voice-processing.ts"
+    }
+  ],
+  "ThamKTM155/nhatky.html": [
+    {
+      "repo": "ThamKTM155/nhatky.html",
+      "type": "RepoTreeError",
+      "message": "Tree fetch failed: 409",
+      "location": ""
+    }
+  ]
+}
