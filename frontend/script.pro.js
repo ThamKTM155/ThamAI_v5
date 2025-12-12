@@ -1,35 +1,29 @@
 // frontend/script.pro.js
-// ThamAI — Frontend secure v1
-// Tính năng bảo mật:
-// - Bắt buộc HTTPS (nếu không set API_BASE)
-// - Sanitize output (simple text-only renderer)
-// - Rate-limit gửi (1 request / 800ms) để tránh spam
-// - Không chứa bất kỳ key/hardcode secret nào
-// - Tùy chọn tắt TTS để tránh leak qua audio
-// - Xử lý lỗi an toàn, không leak header/token
+// ThamAI — Frontend secure v1 (PRO)
+// Mục tiêu: KHÔNG chứa bất kỳ secret nào, sanitize output, HTTPS policy, rate-limit, optional TTS disabled by default.
 
 (function () {
   "use strict";
 
   // --- CẤU HÌNH ---
-  const DEFAULT_API = ""; // để trống khuyến nghị; production hãy set window.API_URL_BASE trước khi load
+  const DEFAULT_API = ""; // để trống cho dev; production: set window.API_URL_BASE trước khi load
   const MIN_REQUEST_INTERVAL_MS = 800; // rate-limit
-  const ALLOW_TTS = false; // nếu muốn bật TTS mặc định, set true
-  const FORCE_HTTPS = true; // nếu true và API_BASE rỗng -> require HTTPS endpoint
+  const ALLOW_TTS = false; // mặc định tắt TTS (bật tùy ý)
+  const FORCE_HTTPS = true; // nếu true và API_BASE rỗng -> vẫn dùng localhost; nếu set API_BASE bắt buộc https
 
-  // Lấy API_BASE an toàn: ưu tiên window var (đặt trước khi load script)
+  // Lấy API_BASE an toàn: ưu tiên biến window (đặt trước khi load)
   const API_BASE_RAW = window.API_URL_BASE || DEFAULT_API;
   const API_BASE = (function () {
-    if (!API_BASE_RAW) return ""; // dev local -> empty allowed
+    if (!API_BASE_RAW) return "";
     try {
       const u = new URL(API_BASE_RAW);
       if (FORCE_HTTPS && u.protocol !== "https:") {
-        console.warn("API_URL_BASE is not HTTPS — blocked by security policy.");
+        console.warn("API_URL_BASE không phải HTTPS - bị chặn bởi policy bảo mật.");
         return "";
       }
       return u.origin;
     } catch (e) {
-      console.warn("Invalid API_URL_BASE — ignored.");
+      console.warn("API_URL_BASE không hợp lệ - bỏ qua.");
       return "";
     }
   })();
@@ -40,11 +34,14 @@
   // --- HELPERS ---
   function $(id) { return document.getElementById(id); }
 
-  // Simple sanitizer: treat content as plain text; preserve code fences explicitly
+  // Simple sanitizer: render plain text; treat fenced code explicitly
   function sanitizeAndRender(container, raw) {
-    // If contains triple backticks -> do fence-aware rendering
+    if (!raw || typeof raw !== "string") {
+      container.textContent = String(raw || "");
+      return;
+    }
     if (raw.includes("```")) {
-      container.innerHTML = ""; // clear
+      container.innerHTML = "";
       const parts = raw.split(/(```[\s\S]*?```)/g);
       parts.forEach(part => {
         if (part.startsWith("```") && part.endsWith("```")) {
@@ -65,12 +62,11 @@
         }
       });
     } else {
-      // normal plain text
       container.textContent = raw;
     }
   }
 
-  // Rate limiter
+  // rate limiter
   let lastRequestAt = 0;
   function allowRequest() {
     const now = Date.now();
@@ -79,12 +75,10 @@
     return true;
   }
 
-  // Safe fetch wrapper (no credentials, no exposing tokens)
+  // Safe fetch wrapper: remove credentials & Authorization
   async function safeFetch(url, opts = {}) {
     const safeOpts = Object.assign({}, opts);
-    // remove credentials by default
     safeOpts.credentials = "omit";
-    // ensure no Authorization headers are leaked from frontend-side
     if (safeOpts.headers) {
       const h = Object.assign({}, safeOpts.headers);
       delete h.Authorization;
@@ -94,7 +88,7 @@
     return fetch(url, safeOpts);
   }
 
-  // TTS wrapper (can disable)
+  // Optional TTS wrapper
   function speakText(text) {
     if (!ALLOW_TTS) return;
     try {
@@ -172,15 +166,11 @@
           if (done) break;
           const chunk = decoder.decode(value, { stream: true });
           accumulated += chunk;
-          // render live as plain text
           sanitizeAndRender(aiTextEl, accumulated);
           chatBox.scrollTop = chatBox.scrollHeight;
         }
 
-        // final rendering
         sanitizeAndRender(aiTextEl, accumulated);
-
-        // optional TTS
         speakText(accumulated);
 
       } catch (err) {
